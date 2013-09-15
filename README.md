@@ -1,5 +1,5 @@
-dropwizard-helloworld
-=====================
+RESTful Library Service
+======================
 
 $ mvn clean package
 
