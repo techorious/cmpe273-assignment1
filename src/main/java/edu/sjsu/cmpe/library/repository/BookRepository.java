@@ -15,7 +15,7 @@ public class BookRepository implements BookRepositoryInterface {
     private long isbnKey;
 
     public BookRepository(ConcurrentHashMap<Long, Book> bookMap) {
-	checkNotNull(bookMap, "bookMap must not null for BookRepository");
+	checkNotNull(bookMap, "bookMap must not be null for BookRepository");
 	bookInMemoryMap = bookMap;
 	isbnKey = 0;
     }
