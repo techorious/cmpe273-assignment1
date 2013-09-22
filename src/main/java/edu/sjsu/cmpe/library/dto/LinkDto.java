@@ -2,7 +2,7 @@ package edu.sjsu.cmpe.library.dto;
 
 public class LinkDto {
     private String rel = "self"; // default is 'self'
-    private String href = "/"; // default is '#'
+    private String href = "#"; // default is '#'
     private String method = "GET"; // default is 'GET'
 
     /**

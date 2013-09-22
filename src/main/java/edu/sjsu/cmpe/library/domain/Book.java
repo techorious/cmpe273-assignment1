@@ -1,5 +1,6 @@
 package edu.sjsu.cmpe.library.domain;
 
+
 public class Book {
     private long isbn;
     private String title;
